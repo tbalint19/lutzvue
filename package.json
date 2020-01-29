@@ -45,6 +45,6 @@
     "rimraf": "^2.6.2"
   },
   "dependencies": {
-    "lutzjs": "0.0.5"
+    "lutzjs": "0.0.7"
   }
 }
