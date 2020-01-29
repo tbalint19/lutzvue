@@ -8,11 +8,15 @@ export default class IdlePlugin {
     }
 
     Vue.prototype.$observeIdle = function () {
-      idle.watch()
+      idle.observe()
     }
 
     Vue.prototype.$ignoreIdle = function () {
       idle.ignore()
+    }
+
+    Vue.prototype.$ignoreOnIdle = function () {
+      idle.ignoreSubscribtion()
     }
 
   }

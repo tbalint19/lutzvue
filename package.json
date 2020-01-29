@@ -1,6 +1,6 @@
 {
   "name": "lutzvue",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "Minimalistic idle detection for vue applications",
   "main": "./lib/index.js",
   "scripts": {
@@ -45,6 +45,6 @@
     "rimraf": "^2.6.2"
   },
   "dependencies": {
-    "lutzjs": "0.0.7"
+    "lutzjs": "1.0.0"
   }
 }
